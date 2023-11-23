@@ -18471,6 +18471,29 @@ ul.pagination .prev {
   transition: transform 0.3s;
 }
 
+@media (max-width: 767px) {
+  .banner h6.ld-fh-element {
+    margin: 1em 6em 1em 0;
+  }
+}
+@media (max-width: 767px) {
+  .banner .ld-fancy-heading h1 {
+    font-size: 11vw !important;
+  }
+}
+
+.iconbox-icon-container i {
+  color: #111;
+}
+
+@media (max-width: 767px) {
+  .banner .module-btn-circle {
+    font-size: 19px;
+    margin-top: -30%;
+    padding: 114px 0 0 !important;
+  }
+}
+
 .lqd-tabs-style-3 .lqd-tabs-nav li a.active:after {
   transform: scaleX(1);
 }

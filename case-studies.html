@@ -224,14 +224,14 @@
                 ><span class="navbar-brand-inner post-rel"
                   ><img
                     class="logo-sticky"
-                    width="74"
-                    height="21"
+                    width="104"
+                    height="51"
                     src="assets/images/demo/company/logo-color.jpg"
                     alt=" Theme" />
                   <img
                     class="logo-default"
-                    width="74"
-                    height="21"
+                    width="104"
+                    height="51"
                     src="assets/images/demo/company/logo.png"
                     alt=" Theme" /></span
               ></a>
@@ -328,9 +328,9 @@
                 ><span class="navbar-brand-inner"
                   ><img
                     class="logo-default"
-                    width="74"
-                    height="21"
-                    src="assets/images/demo/company/-svg-logo.svg"
+                    width="104"
+                    height="51"
+                    src="assets/images/demo/company/logo-footer.png"
                     alt=" WordPress Theme" /></span
               ></a>
             </div>
@@ -347,38 +347,53 @@
                   id="mobile-primary-nav"
                   class="reset-ul lqd-mobile-main-nav main-nav nav"
                   data-localscroll="true"
-                  data-localscroll-options='{"itemsSelector":"> li > a", "trackWindowScroll": true, "includeParentAsOffset": true}'
+                  data-localscroll-options='{"itemsSelector":"> li > a", "trackWindowScroll": true}'
                 >
                   <li class="is-active">
-                    <a href="#titlebar">Home <sup class="link-sup">01</sup></a>
-                  </li>
-                  <li>
-                    <a href="page-company-about.html"
-                      >About Us <sup class="link-sup">02</sup></a
-                    >
-                  </li>
-                  <li>
-                    <a href="page-company-services.html"
-                      >Services <sup class="link-sup">03</sup></a
+                    <a href="about.html"
+                      >About <sup class="link-sup">01</sup></a
                     >
                   </li>
                   <li class="menu-item-has-children">
                     <a href="#wrap"
-                      >Pages <span class="submenu-expander absolute"></span>
+                      >Services <span class="submenu-expander absolute"></span>
                       <sup class="link-sup">04</sup></a
                     >
                     <ul class="nav-item-children">
-                      <li><a href="page-company-what-we-do.html">News</a></li>
-                      <li><a href="#">Case Studies</a></li>
+                      <li>
+                        <a href="./services.html"
+                          >Research on migratory birds</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./services.html">Seabird research</a>
+                      </li>
+                      <li>
+                        <a href="./services.html">Bat research</a>
+                      </li>
+                      <li>
+                        <a href="#">?</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html#news"
+                    <a href="innovation.html"
+                      >Innovation <sup class="link-sup">02</sup></a
+                    >
+                  </li>
+                  <li>
+                    <a href="case-studies.html"
+                      >Case Studies <sup class="link-sup">03</sup></a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="./news.html"
                       >News <sup class="link-sup">05</sup></a
                     >
                   </li>
                   <li>
-                    <a href="page-company-contact.html"
+                    <a href="contact.html"
                       >Contact <sup class="link-sup">06</sup></a
                     >
                   </li>
@@ -408,261 +423,694 @@
       </div>
       <main class="content bg-white" id="lqd-site-content">
         <div id="lqd-contents-wrap">
-          <section class="lqd-section consultation pt-80" id="consultation">
+          <section
+            class="lqd-section case-study-carousel pt-60 pb-50 ca-initvalues-applied lqd-animations-done p-20"
+            id="case-studies"
+            data-custom-animations="true"
+            data-ca-options='{"animationTarget": ".animation-element", "ease": "power4.out", "initValues": {"y": "30px", "opacity" : 0} , "animations": {"y": "0px", "opacity" : 1}}'
+          >
             <div class="container">
-              <div class="row">
-                <div
-                  class="col col-12 flex flex-row flex-wrap justify-center"
-                  data-custom-animations="true"
-                  data-ca-options='{"animationTarget": ".animation-element", "duration" : 1800 , "delay" : 180 , "ease": "power4.out", "initValues": {"y": "35px", "opacity" : 0} , "animations": {"y": "0px", "opacity" : 1}}'
-                >
+              <div class="row items-center">
+                <div class="col col-12 col-md-6 p-0 text-end sm:text-start">
                   <div
-                    class="w-45percent flex flex-col justify-center text-center mb-55 md:w-full"
-                  >
-                    <div class="ld-fancy-heading relative animation-element">
-                      <h2 class="ld-fh-element mb-0/5em inline-block relative">
-                        our clients
-                      </h2>
-                    </div>
-                    <div class="ld-fancy-heading relative animation-element">
-                      <p class="ld-fh-element mb-0/5em inline-block relative">
-                        IT allows your business and technology computers to
-                        store, transmit, analyze, and manipulate big data.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="w-full"></div>
+                    class="fancy-button animation-element lqd-unit-animation-done"
+                    style=""
+                  ></div>
+                </div>
+                <div class="col col-12 p-0">
                   <div
-                    class="flex w-33percent flex p-15 lg:w-full animation-element"
+                    class="carousel-container pt-40 animation-element carousel-nav-appended lqd-unit-animation-done"
+                    style=""
                   >
                     <div
-                      class="ld-flipbox w-full h-full relative perspective rounded-4"
+                      class="carousel-items relative flickity-enabled is-draggable lqd-carousel-ready flickity-equal-cells"
+                      data-lqd-flickity='{ "equalHeightCells": true, "filters": "#pf-filter-46824385", "prevNextButtons": true, "navArrow":  6, "fullwidthSide":  true, "buttonsAppendTo":  "self" }'
+                      tabindex="0"
                     >
                       <div
-                        class="ld-flipbox-wrap w-full h-full relative transform-style-3d"
+                        class="flickity-viewport-wrap overflow-hidden"
+                        style="margin-right: -261.5px; padding-right: 261.5px"
                       >
                         <div
-                          class="ld-flipbox-face ld-flipbox-front flex flex-col w-full h-full backface-hidden transform-style-3d"
+                          class="flickity-viewport pos-rel w-100 h-100"
                           style="
-                            background-image: url('assets/images/demo/company/flip-img-1.jpg');
+                            height: 508.695px;
+                            touch-action: pan-y;
+                            overflow: visible;
                           "
                         >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex bg-transparent"
-                            style="
-                              background-image: linear-gradient(
-                                180deg,
-                                rgba(24, 27, 49, 0) 0%,
-                                rgba(24, 27, 49, 0.65) 100%
-                              );
-                            "
-                          ></span>
                           <div
-                            class="ld-flipbox-inner w-full flex-grow-1 items-center justify-center backface-hidden"
+                            class="flickity-slider d-flex w-100 h-100 pos-rel"
+                            style="
+                              transform: translateX(-76.92%);
+                              will-change: transform;
+                            "
                           >
                             <div
-                              class="w-full flex flex-col flex-wrap items-start p-10 px-15"
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(0%);
+                              "
+                              aria-hidden="true"
                             >
-                              <div
-                                class="ld-fancy-heading relative w-auto mb-2em rounded-4 bg-white"
-                              >
-                                <h5
-                                  class="ld-fh-element m-0 inline-block relative bg-white text-15 font-semibold leading-1em tracking-0/5 py-0/5em px-1em rounded-4"
-                                >
-                                  utilities
-                                </h5>
-                              </div>
-                              <div class="ld-fancy-heading relative">
-                                <h5
-                                  class="ld-fh-element mb-0/5em inline-block relative text-30 text-white leading-1em"
-                                >
-                                  banking and business partnership
-                                </h5>
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-1.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <div
-                          class="ld-flipbox-face ld-flipbox-back flex flex-col lqd-overlay flex h-full backface-hidden transform-style-3d"
-                        >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex"
-                          ></span>
-                          <div
-                            class="ld-flipbox-inner flex flex-col flex-grow-1 items-center justify-center w-full backface-hidden py-40 px-50"
-                          >
-                            <a
-                              href="#contact-modal"
-                              class="btn btn-solid btn-md whitespace-nowrap text-15 font-bold py-1/15em px-2/1em text-secondary rounded-4 bg-white hover:text-white hover:bg-primary"
-                              data-lity="#contact-modal"
-                              ><span class="btn-txt" data-text="Send message"
-                                >Send message</span
-                              ></a
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(115.38%);
+                              "
+                              aria-hidden="true"
                             >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-2.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child is-selected"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(230.77%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-3.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child is-selected"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(346.15%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-4.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              aria-hidden="true"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(461.54%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-5.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              aria-hidden="true"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(576.92%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-6.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              aria-hidden="true"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(692.31%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-2.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              aria-hidden="true"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(807.69%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-4.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="carousel-item col-12 col-lg-6 col-xl-4 mr-60 has-one-child"
+                              aria-hidden="true"
+                              style="
+                                position: absolute;
+                                left: 0px;
+                                transform: translateX(923.08%);
+                              "
+                            >
+                              <div class="carousel-item-inner">
+                                <div class="carousel-item-content">
+                                  <article
+                                    class="lqd-pf-item lqd-pf-item-style-3 lqd-pf-overlay-bg-scale lqd-pf-content-v pf-details-h-str"
+                                  >
+                                    <div class="lqd-pf-item-inner">
+                                      <div
+                                        class="lqd-pf-img overflow-hidden rounded-6 relative mb-2em"
+                                      >
+                                        <figure>
+                                          <figure class="lqd-overlay flex">
+                                            <img
+                                              width="640"
+                                              height="600"
+                                              src="./assets/images/demo/company/case.jpg"
+                                              class="w-full h-full objfit-cover objfit-center"
+                                              alt="case study"
+                                            />
+                                          </figure>
+                                        </figure>
+                                        <span
+                                          class="lqd-pf-overlay-bg lqd-overlay flex items-center justify-center bg-transparent text-white"
+                                          style="
+                                            background-image: linear-gradient(
+                                              115deg,
+                                              rgb(21, 147, 219) 48%,
+                                              rgb(52, 167, 255) 82%
+                                            );
+                                          "
+                                          ><i
+                                            class="lqd-icn-ess icon-md-arrow-forward"
+                                          ></i
+                                        ></span>
+                                      </div>
+                                      <div class="lqd-pf-details">
+                                        <h2 class="lqd-pf-title mt-0 mb-1 h5">
+                                          SGS
+                                        </h2>
+                                        <ul
+                                          class="reset-ul inline-nav lqd-pf-cat inline-flex relative z-2"
+                                        >
+                                          <li>
+                                            <a href="#" class="leading-1/4em"
+                                              >Completed research with latest
+                                              radar technology</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <a
+                                        href="./assets/images/demo/digital-hub/case-study-1.jpg"
+                                        class="lqd-overlay flex lqd-pf-overlay-link leading-1/4em fresco"
+                                        data-fresco-group="case-studies"
+                                      ></a>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div
-                    class="flex w-33percent flex p-15 lg:w-full animation-element"
-                  >
+                    <div class="carousel-nav"></div>
                     <div
-                      class="ld-flipbox w-full h-full relative perspective rounded-4"
+                      class="carousel-dots carousel-dots-to-hide hidden-xs hidden-sm md:hidden"
                     >
-                      <div
-                        class="ld-flipbox-wrap w-full h-full relative transform-style-3d"
-                      >
-                        <div
-                          class="ld-flipbox-face ld-flipbox-front flex flex-col w-full h-full backface-hidden transform-style-3d"
-                          style="
-                            background-image: url('assets/images/demo/company/flip-img-2.jpg');
-                          "
-                        >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex bg-transparent"
-                            style="
-                              background-image: linear-gradient(
-                                180deg,
-                                rgba(24, 27, 49, 0) 0%,
-                                rgba(24, 27, 49, 0.65) 100%
-                              );
-                            "
-                          ></span>
-                          <div
-                            class="ld-flipbox-inner w-full flex-grow-1 items-center justify-center backface-hidden"
-                          >
-                            <div
-                              class="w-full flex flex-col flex-wrap items-start p-10 px-15"
-                            >
-                              <div
-                                class="ld-fancy-heading relative w-auto mb-2em rounded-4 bg-white"
-                              >
-                                <h5
-                                  class="ld-fh-element m-0 inline-block relative bg-white text-15 font-semibold leading-1em tracking-0/5 py-0/5em px-1em rounded-4"
-                                >
-                                  materials
-                                </h5>
-                              </div>
-                              <div class="ld-fancy-heading relative">
-                                <h5
-                                  class="ld-fh-element mb-0/5em inline-block relative text-30 text-white leading-1em"
-                                >
-                                  big data integration for startups
-                                </h5>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="ld-flipbox-face ld-flipbox-back flex flex-col lqd-overlay flex h-full backface-hidden transform-style-3d"
-                        >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex"
-                          ></span>
-                          <div
-                            class="ld-flipbox-inner flex flex-col flex-grow-1 items-center justify-center w-full backface-hidden py-50 px-60"
-                          >
-                            <div
-                              class="ld py-1/15em px-2/1em-fancy-heading rounded-4 relative hover:text-white text-center"
-                            >
-                              <p
-                                class="ld-fh-element text-white-60 inline-block relative"
-                              >
-                                As a partner of corporates, Liquid has more than
-                                9,000 partners of all sizes and all potential of
-                                session.
-                              </p>
-                            </div>
-                            <div class="fancy-btn">
-                              <a
-                                href="#contact-modal"
-                                class="btn btn-naked btn-hover-txt-liquid-y whitespace-nowrap font-bold text-white text-15"
-                                data-lity="#contact-modal"
-                                ><span
-                                  class="btn-txt"
-                                  data-text="Send message"
-                                  data-split-text="true"
-                                  data-split-options='{"type":  "chars, words"}'
-                                  >Send message</span
-                                ></a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      <ol class="flickity-page-dots">
+                        <li class="dot" aria-label="Page dot 1"></li>
+                        <li
+                          class="dot is-selected"
+                          aria-label="Page dot 2"
+                          aria-current="step"
+                        ></li>
+                        <li class="dot" aria-label="Page dot 3"></li>
+                        <li class="dot" aria-label="Page dot 4"></li>
+                        <li class="dot" aria-label="Page dot 5"></li>
+                      </ol>
                     </div>
-                  </div>
-                  <div
-                    class="flex w-33percent flex p-15 lg:w-full animation-element"
-                  >
-                    <div
-                      class="ld-flipbox w-full h-full relative perspective rounded-4"
-                    >
-                      <div
-                        class="ld-flipbox-wrap w-full h-full relative transform-style-3d"
-                      >
-                        <div
-                          class="ld-flipbox-face ld-flipbox-front flex flex-col w-full h-full backface-hidden transform-style-3d"
-                          style="
-                            background-image: url('assets/images/demo/company/flip-img-3.jpg');
-                          "
-                        >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex bg-transparent"
-                            style="
-                              background-image: linear-gradient(
-                                180deg,
-                                rgba(24, 27, 49, 0) 0%,
-                                rgba(24, 27, 49, 0.65) 100%
-                              );
-                            "
-                          ></span>
-                          <div
-                            class="ld-flipbox-inner w-full flex-grow-1 items-center justify-center backface-hidden"
-                          >
-                            <div
-                              class="w-full flex flex-col flex-wrap items-start p-10 px-15"
-                            >
-                              <div
-                                class="ld-fancy-heading relative w-auto mb-2em rounded-4 bg-white"
-                              >
-                                <h5
-                                  class="ld-fh-element m-0 inline-block relative bg-white text-15 font-semibold leading-1em tracking-0/5 py-0/5em px-1em rounded-4"
-                                >
-                                  energy
-                                </h5>
-                              </div>
-                              <div class="ld-fancy-heading relative">
-                                <h5
-                                  class="ld-fh-element mb-0/5em inline-block relative text-30 text-white leading-1em"
-                                >
-                                  analyzing company reports
-                                </h5>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="ld-flipbox-face ld-flipbox-back flex flex-col lqd-overlay flex h-full backface-hidden transform-style-3d"
-                        >
-                          <span
-                            class="ld-flipbox-overlay lqd-overlay flex"
-                          ></span>
-                          <div
-                            class="ld-flipbox-inner flex flex-col flex-grow-1 items-center justify-center w-full backface-hidden py-40 px-50"
-                          >
-                            <a
-                              href="#contact-modal"
-                              class="btn btn-solid btn-md whitespace-nowrap text-15 font-bold py-1/15em px-2/1em text-secondary rounded-4 bg-white hover:text-white hover:bg-primary"
-                              data-lity="#contact-modal"
-                              ><span class="btn-txt" data-text="Send message"
-                                >Send message</span
-                              ></a
-                            >
-                          </div>
-                        </div>
-                      </div>
+                    <div class="carousel-dots-mobile carousel-dots-style4">
+                      <ol class="flickity-page-dots">
+                        <li
+                          class="dot"
+                          aria-label="Page dot 1"
+                          aria-current="step"
+                        ></li>
+                        <li
+                          class="dot is-selected"
+                          aria-label="Page dot 2"
+                        ></li>
+                        <li class="dot" aria-label="Page dot 3"></li>
+                        <li class="dot" aria-label="Page dot 4"></li>
+                        <li class="dot" aria-label="Page dot 5"></li>
+                      </ol>
                     </div>
                   </div>
                 </div>
