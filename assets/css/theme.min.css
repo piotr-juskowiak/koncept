@@ -445,6 +445,7 @@ section {
   flex: 0 0 auto;
   width: 83.33333333%;
 }
+
 .col-11 {
   flex: 0 0 auto;
   width: 91.66666667%;
@@ -2134,6 +2135,12 @@ h6 {
   background-color: currentColor;
   transition: all 0.3s;
 }
+
+span.btn-txt.inline-block.text-secondary,
+.lqd-lp-read-more .btn-line {
+  color: #ffcd28;
+}
+
 .nav-trigger .bar:after,
 .nav-trigger .bar:before {
   background-color: inherit;
@@ -2142,6 +2149,11 @@ h6 {
 .nav-trigger .bar:last-child {
   margin-bottom: 0 !important;
 }
+
+.lqd-contact-form .ui-button.ui-selectmenu-button .ui-selectmenu-text {
+  text-align: left;
+}
+
 .nav-trigger .txt {
   line-height: 1;
   white-space: nowrap;
