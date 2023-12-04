@@ -3293,9 +3293,9 @@ hr {
 }
 .vimeo-wrapper iframe {
   width: 100vw;
-  height: 57.25vw;
-  min-height: 104vh;
-  min-width: 159.76999999999998vh;
+  height: 56.25vw;
+  min-height: 93vh;
+  min-width: 164.76999999999998vh;
   position: absolute;
   top: 50%;
   left: 50%;
