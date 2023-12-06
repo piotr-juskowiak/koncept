@@ -3281,6 +3281,13 @@ hr {
   color: #fdf7f7;
 }
 
+@media (max-width: 767px) {
+  .thin-fixed-bg .ld-fancy-heading h2 {
+    font-size: 8vw !important;
+    line-height: 1.35em !important;
+  }
+}
+
 .vimeo-wrapper {
   position: absolute;
   top: 0;
@@ -13383,6 +13390,30 @@ h2.lqd-lp-title a:hover {
   background-color: #fff;
   color: #000;
 }
+
+@media (max-width: 767px) {
+  .banner h6.ld-fh-element {
+    margin: 1em 6em 1em 1em !important;
+  }
+}
+
+h5,
+.h5,
+h2,
+.h2,
+h6,
+.h6,
+h4,
+.h4,
+h3,
+.h3 {
+  color: #666666 !important;
+}
+
+#site-footer h6 {
+  color: #fff !important;
+}
+
 .lqd-lp-cat-solid-colored a {
   border-radius: 2em;
   background: 0 0;
@@ -22955,6 +22986,21 @@ nav.post-nav .nav-next .nav-subtitle svg {
     width: 1060px;
   }
 }
+
+
+@media (min-width: 1200px) {
+.container {
+    max-width: var(--lqd-container-width-lg, 1000px);
+}
+}
+
+.main-header .main-nav > li > a, .ld-dropdown-menu.pt-20.flex.relative.pl-20.ml-20.border-left.border-white-10 {
+padding-top: 15px!important;
+}
+.tab-items .lqd-tabs-style-3 .lqd-tabs-nav li a:after {
+  background-color: #ffcd28!important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .lqd-blog-post-style-3 .lqd-post-cover {
     grid-template-columns: 1fr auto 360px;
