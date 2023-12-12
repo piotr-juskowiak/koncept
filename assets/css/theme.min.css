@@ -3298,11 +3298,29 @@ hr {
   pointer-events: none;
   overflow: hidden;
 }
+
+.lqd-contact-form-inputs-lg input,
+.lqd-contact-form-inputs-lg .ui-button.ui-selectmenu-button {
+  height: 50px !important;
+}
+
+.lqd-contact-form {
+  --input-margin-bottom: 13px !important;
+  --inputs-margin: 0 0 var(--input-margin-bottom) 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .kontakt {
+    order: -1;
+    padding-bottom: 50px;
+  }
+}
+
 .vimeo-wrapper iframe {
   width: 100vw;
   height: 56.25vw;
-  min-height: 93vh;
-  min-width: 164.76999999999998vh;
+  min-height: 96vh;
+  min-width: 170.76999999999998vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22987,18 +23005,12 @@ nav.post-nav .nav-next .nav-subtitle svg {
   }
 }
 
-
-@media (min-width: 1200px) {
-.container {
-    max-width: var(--lqd-container-width-lg, 1000px);
-}
-}
-
-.main-header .main-nav > li > a, .ld-dropdown-menu.pt-20.flex.relative.pl-20.ml-20.border-left.border-white-10 {
-padding-top: 15px!important;
+.main-header .main-nav > li > a,
+.ld-dropdown-menu.pt-20.flex.relative.pl-20.ml-20.border-left.border-white-10 {
+  padding-top: 15px !important;
 }
 .tab-items .lqd-tabs-style-3 .lqd-tabs-nav li a:after {
-  background-color: #ffcd28!important;
+  background-color: #ffcd28 !important;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
