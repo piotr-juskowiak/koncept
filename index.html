@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
 
-   
+    <head>
+      <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ldc2y4pAAAAALqZn1oW3ro8h282y2rPy1ylvOtC"></script>
+      <!-- Your code -->
+    </head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
@@ -48,7 +51,14 @@
     data-mobile-logo-alignment="default"
     data-overlay-onmobile="false"
   >
-
+  <script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6Ldc2y4pAAAAALqZn1oW3ro8h282y2rPy1ylvOtC', {action: 'LOGIN'});
+      });
+    }
+  </script>
   
   
     <div class="bg-white" id="wrap">
