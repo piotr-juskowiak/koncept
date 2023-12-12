@@ -3,7 +3,6 @@
   <head>
 
    <head>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <!-- Your code -->
 </head>
 
@@ -1314,14 +1313,7 @@
         <div class="lqd-modal-foot"></div>
       </div>
     </div>
-    <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.enterprise.ready(async () => {
-          const token = await grecaptcha.enterprise.execute('6LfPyC4pAAAAAO_nLh2hJx8mci7ztgzstsQpJmbw', {action: 'LOGIN'});
-        });
-      }
-    </script>
+   
    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRSq7_32muzQ4-hcsJwws4ZrtfqaFcsZg"></script>
     <script src="assets/vendors/jquery.min.js"></script>
