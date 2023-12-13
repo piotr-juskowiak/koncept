@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ldc2y4pAAAAALqZn1oW3ro8h282y2rPy1ylvOtC"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
@@ -500,10 +502,13 @@
                           <div class="screen-reader-response">
                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                           </div>
-                          <form
-                          action="https://formspree.io/f/myyqrllq"
-                          method="POST"
-                        >
+                          <form action="https://submit-form.com/su8qy80GQ" method="POST">
+
+                            <input
+                            type="hidden"
+                            name="_redirect"
+                            value="https://3birds-rho.vercel.app/thanks.html"
+                          />
                             <div class="row -mx-15">
                               <div class="col col-lg-6 col-12 py-0 px-15">
                                 <span class="mb-0 lqd-form-control-wrap relative"><input class="px-2em text-14 font-normal bg-yellow-100 text-slate-700" type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Full name"></span>
@@ -550,7 +555,6 @@
                               </div>
                             </div>
                           </form>
-                          <div class="lqd-cf-response-output"></div>
                         </div>
                       </div>
                     </div>
@@ -689,7 +693,14 @@
         <div class="lqd-modal-foot"></div>
       </div>
     </div>
-
+    <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+          const token = await grecaptcha.enterprise.execute('6LfPyC4pAAAAAO_nLh2hJx8mci7ztgzstsQpJmbw', {action: 'LOGIN'});
+        });
+      }
+    </script>
     <script
       data-cfasync="false"
       src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
