@@ -13429,7 +13429,11 @@ h3,
 }
 
 #site-footer h6 {
-  color: #fff !important;
+  color: #6bceeb !important;
+}
+
+#site-footer p {
+  color: #d8d8d8 !important;
 }
 
 .lqd-lp-cat-solid-colored a {
