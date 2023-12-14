@@ -13411,7 +13411,7 @@ h2.lqd-lp-title a:hover {
 
 @media (max-width: 767px) {
   .banner h6.ld-fh-element {
-    margin: 1em 6em 1em 1em !important;
+    margin: 1em 6em 1em 0em !important;
   }
 }
 
