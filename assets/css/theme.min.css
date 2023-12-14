@@ -13432,6 +13432,34 @@ h3,
   color: #6bceeb !important;
 }
 
+@media only screen and (max-width: 820px) {
+  .ld-fancy-heading.relative.text-center {
+    text-align: left;
+  }
+
+  .lg\:ml-50.w-35percent.mb-0.ml-5percent.kontakt.text-center.md\:w-full.sm\:w-full,
+  .w-35percent.mb-0.ml-5percent.kontakt.text-center.md\:w-full.sm\:w-full {
+    margin: 0px !important;
+  }
+  div#lqd-tab-item-1 p {
+    text-align: left !important;
+  }
+  h2.ld-fh-element.relative.mb-0\/5em,
+  h2.ld-fh-element.relative.mb-0\/5em {
+    text-align: left !important;
+  }
+  .w-full.relative.flex.items-center.pl-20percent.rounded-8.z-1.module-col {
+    padding: 0 !important;
+  }
+  p.ld-fh-element.relative.mb-0\/5em {
+    text-align: left;
+  }
+
+  .w-full.flex.flex-col.items-center.text-center.px-15percent.pb-10.sm\:px-0 {
+    align-items: flex-start;
+  }
+}
+
 #site-footer p {
   color: #d8d8d8 !important;
 }
